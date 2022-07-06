@@ -1,10 +1,10 @@
 body {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Poppins", sans-serif;
   margin: 0px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   font-size: 40px;
@@ -80,8 +80,6 @@ p {
 }
 #card-1 {
   background-color: #edf7fe;
-  text-align: justify;
-  text-align: center;
 }
 #card-2 {
   background-color: #fff2fd;
@@ -100,16 +98,16 @@ p {
   justify-content: center;
 }
 .card {
-  text-align: justify;
-  text-align: center;
   width: 400px;
-  height: 600px;
+  height: 700px;
   box-shadow: 10px 10px 20px gainsboro;
   margin: 100px 10px 50px 10px;
   border-radius: 10px;
 }
-.card h2,
-p {
+.card h2 {
+  text-align: center;
+}
+.card p {
   text-align: justify;
   padding: 0px 20px;
 }
