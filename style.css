@@ -1,0 +1,206 @@
+body {
+  font-family: "Source Serif Pro", serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+.cover-image img {
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(50%);
+}
+.center-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.donate-button {
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.donate-today h2 {
+  text-align: center;
+}
+.donate-today p {
+  text-align: justify;
+  margin: auto 200px;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  border: 2x dotted black;
+}
+.others {
+  display: inline;
+  text-align: center;
+}
+
+.input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px dotted grey;
+}
+.other-amount {
+  margin-top: 20px;
+}
+.taka {
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: crimson;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  box-shadow: 5px 5px 20px gainsboro;
+  padding: 50px 40px;
+  border-radius: 5px;
+  color: gray;
+}
+#card-1 {
+  background-color: #edf7fe;
+  text-align: justify;
+  text-align: center;
+}
+#card-2 {
+  background-color: #fff2fd;
+}
+#card-3 {
+  background-color: #fff8dc;
+}
+.taka:hover {
+  border: 2px solid crimson;
+  background-color: #feeaef;
+  color: crimson;
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  text-align: justify;
+  text-align: center;
+  width: 400px;
+  height: 600px;
+  box-shadow: 10px 10px 20px gainsboro;
+  margin: 100px 10px 50px 10px;
+  border-radius: 10px;
+}
+.card h2,
+p {
+  text-align: justify;
+  padding: 0px 20px;
+}
+.plan img {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.serve {
+  display: flex;
+  background-color: grey;
+  color: white;
+}
+.serve a {
+  margin: 0px 40%;
+}
+.serve img {
+  filter: brightness(50%);
+}
+.serve h2,
+p {
+  text-align: justify;
+  justify-content: center;
+  padding: 20px;
+}
+.serve h3 {
+  text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  background-color: cornsilk;
+  height: 200px;
+  width: 600px;
+  margin: 0% 35%;
+}
+.email {
+  background-color: gainsboro;
+  font-size: 15px;
+  padding: 5px;
+  color: grey;
+  border-radius: 3px;
+}
+.btn {
+  font-size: 25px;
+  padding: 0px 10px;
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.subs-btn {
+  margin-top: 15%;
+}
+.update h1,
+p {
+  text-align: center;
+}
+
+.reg {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+.reg img {
+  filter: brightness(50%);
+}
+.reg h1 {
+  text-align: center;
+}
+.reg a {
+  margin: 0% 40%;
+}
+.sign {
+  background-color: #3b3b3b;
+  color: white;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+span {
+  font-size: 25px;
+  color: crimson;
+  font-family: "Lobster", cursive;
+}
